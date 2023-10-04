@@ -9,8 +9,9 @@ I gave cat a path to print the contents for, but ar-eg.txt is not a file so the 
 ![Image](img3.png)
 In this case, I did not give the cat a path to go to so nothing was printed out.
 ![Image](img11.png)
-
+Giving cat the path lecture1 printed out the contents by letting us know that cat is a directory.
 ![Image](img7.png)
+
 ![Image](img8.png)
 ![Image](img5.png)
 
