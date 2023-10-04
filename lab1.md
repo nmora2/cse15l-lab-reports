@@ -1,6 +1,7 @@
 ![Image](img1.png)
-When we run cd in the terminal, we want to change the directory. However, I did not specify the path I wanted to change to so nothing came up. 
+When I run cd in the terminal, I want to change the directory. However, I did not specify the path I wanted to change to so nothing came up. 
 ![Image](img2.png)
+When I ran cd lecture1 in the terminal, cd was given a path to change directory to so the terminal will now allow me to look into lecture1.
 ![Image](img10.png)
 ![Image](img4.png)
 ![Image](img3.png)
