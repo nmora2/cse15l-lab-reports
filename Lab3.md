@@ -7,13 +7,13 @@ Screenshot of How are you:
 ![Image](howareyou.png)
 
 Methods called: 
-.getPath()
-.equals()
-.length()
-.append()
-.toString()
-.getQuery()
-.split()
+- .getPath()
+- .equals()
+- .length()
+- .append()
+- .toString()
+- .getQuery()
+- .split()
 
 Explanation:
 - getPath() method checks the url link.
