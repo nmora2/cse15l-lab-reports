@@ -1,4 +1,4 @@
-![Image](addmessage.png)
+![Image](StringServer.png)
 
 Screenshot of Hello:
 ![Image](hello.png)
