@@ -30,7 +30,9 @@ Values changed:
 
 Part 2:
 Path to private and public:
-![Image](ssh.png)
+![Image](private.png)
+![Image](public.png)
+
 
 Not asking for password:
 ![Image](nopassword.png)
