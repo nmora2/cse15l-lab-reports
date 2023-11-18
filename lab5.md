@@ -1,8 +1,16 @@
 PART 1:
 Failed test:
-![Image](failed.png)
 
+``` java
+  @Test
+  public void reverse() {
+    int[] input1 = {0, 1, 2, 3, 4, 5};
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{5, 4, 3, 2, 1, 0}, input1);
+  }
+```
 Output:
+
 ![Image](failedOutput.png)
 
 
