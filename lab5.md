@@ -15,16 +15,38 @@ Output:
 
 
 Does not induce a failure:
-![Image](testPassesFailedCode.png)
+``` java
+ @Test 
+  public void testEmpty() {
+  int[] input = {};
+  assertArrayEquals(new int[]{}, ArrayExamples.reversed(input));
+  }
+```
 
 Output: 
 ![Image](passedFailCode.png)
 
 The bug before:
-![Image](wrongCode.png)
-
+``` java
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+  }
+```
 The bug after:
-![Image](correctCode.png)
+``` java
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      newArray[i] = arr[arr.length - i - 1];
+    }
+    return newArray;
+  }
+```
+
 
 Explanation: 
 - The fix addresses the issue because at first, the method returnes the original array
@@ -33,8 +55,9 @@ the new array and not the original which is why the code I provided, after the b
 for reversing the array. 
 
 PART 2:
-- grep-w
-![Image](grep-w.png)
+``` java
+grep -w "treatment" */1468-6708-3-10.txt
+```
 
 ![Image](grep-w-ex2.png)
 This command, grep-w "__" */file ,finds the word "treatment" and "September" in the file that
