@@ -5,7 +5,7 @@ I pressed the key `<up>` a couple times to access my commands history which led 
 in order to log in. 
 
 5) Fork and clone
-![Image](gitclone.png)
+![Image](clone.png)
 
 
 6) Failed tests
