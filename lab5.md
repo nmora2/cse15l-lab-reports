@@ -85,6 +85,8 @@ older, between those randomized to treatment initiated with
         and chlorthalidone treatment groups represented a desirable
 ```
 
+- Example 2:
+
 ``` java
 grep -w "September" */1468-6708-3-10.txt
 ```
@@ -106,7 +108,8 @@ grep -w "September" */1468-6708-3-10.txt
 
 
 
-- Example 2:
+- Example 3:
+  
 ``` java
 grep -c "September" */chapter-1.txt
 ```
@@ -115,7 +118,9 @@ Output:
 ``` java
       7
 ```
-      
+
+- Example 4:
+  
 ``` java
 grep -c "goat" */1471-213X-1-12.txt
 ```
@@ -131,7 +136,7 @@ file that I want it to look at.
 
 
 
-- Example 3
+- Example 5
 ``` java
 grep -b --colour -n "environmental" */journal.pbio.0020019.txt
 ```
@@ -149,6 +154,9 @@ Output:
 128:10299:        genetic and environmental variation. The stabilisation of neural activity may have
 ```
 
+
+- Example 6:
+  
 ``` java
  grep -b --colour -n "treated" */journal.pbio.0020019.txt
 ```
@@ -164,9 +172,8 @@ want to find in the file.
 
 
 
-
-
-- Example 4:
+- Example 7:
+  
 ``` java
 technical % grep "Highly" */chapter-5.txt
 ```
@@ -176,6 +183,8 @@ Output:
 Highly educated and equally comfortable in a government office or a terrorist
 ```
 
+- Example 8:
+  
 ``` java
 technical % grep "G2" */1471-213X-1-12.txt
 ```
