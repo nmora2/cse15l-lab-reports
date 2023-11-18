@@ -25,5 +25,5 @@ typed :wq to save my changes and exit vim.
    I pressed <up> <up> <up> to access bash tesh.sh from my history commands and
    pressed <enter> to determine if the tests passed or not.
 
-9) ![Image](commit.png)
+9) ![Image](commit.pdf)
    ![Image](ss.png)
