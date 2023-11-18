@@ -165,7 +165,7 @@ Output:
 ``` java
 28:1854:        abnormalities; (2) individuals treated with a pharmacological inhibitor of Hsp90 show
 ```
-
+Explanation:
 This command, grep -b --colour -n "__" */file ,highlights the word that I
 want to find in the file. 
 
@@ -199,7 +199,7 @@ or G2 phase into the preactivated recipients after reducing
             100 μl of G2.2 medium [ 60] and continued to be
 ```
 
-
+Explanation:
 This command, grep "__" */file ,looks for the exact pattern that I input. This command
 works for a letter and also works for COMPLETE words. 
 
