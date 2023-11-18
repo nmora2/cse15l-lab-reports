@@ -26,4 +26,4 @@ typed :wq to save my changes and exit vim.
    pressed <enter> to determine if the tests passed or not.
 
 9) ![Image](commit.png)
-   ![Image](Screenshot 2023-11-18 at 2.55.35 PM)
+   ![Image](ss.png)
