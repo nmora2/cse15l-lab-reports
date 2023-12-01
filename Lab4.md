@@ -1,7 +1,7 @@
 4) Log in
 ![Image](login.png)
 
-I pressed the key `<up><up><up<up` to access my commands history which led to ssh cs15lfa23cx@ieng6.ucsd.edu then pressed `<enter>` to execute the command.
+I pressed the key `<up><up><up<up>` to access my commands history which led to ssh cs15lfa23cx@ieng6.ucsd.edu then pressed `<enter>` to execute the command.
 in order to log in. 
 
 5) Fork and clone
