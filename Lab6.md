@@ -4,7 +4,7 @@ reverse the array list if it's length is 3,  but I keep getting an error.
 2) TA: Can you please show me what the error output in the terminal?
 
 3) Student: Yes, this is what the terminal is showing me.
-![Image](failedTerminal.png)
+![Image](failTerminal.png)
 
 4) TA: When you want reverse a list, you have to swap the first and last index in order to reverse
 the order of an array list. Can I see how you're reversing your list?
