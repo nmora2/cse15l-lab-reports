@@ -21,7 +21,7 @@ the order of an array list. Can I see how you're reversing your list?
     ![Image](passTerminal.png)
 
 9) Student: This is the test that correctly passed the code.
-    ![Image](failed.png)
+    ![Image](test.png)
 
    Reflection:
    I found vim mode to be so interesting. I never knew you could access a code through the terminal
